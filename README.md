@@ -1,2 +1,2 @@
 # WEB-PRG-Project
-WEB-PRG Coffee Market Project
+<h1>The Coffee Market Project</h1>
