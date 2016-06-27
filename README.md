@@ -12,3 +12,5 @@
  - Admin Page
 
 <h4>Back End:</h4>
+- Integration with database
+- Display contents to Market Page
