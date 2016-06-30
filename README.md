@@ -1,4 +1,4 @@
-# Kape Laya: Philippines' Coffee Plaza
+# Kapino: Pamilihang Pilipino
 ## To Do: ##
 <h4>Front End:</h4>
 
