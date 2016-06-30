@@ -64,7 +64,7 @@
 
 .landing-page  .container h1{
    font-family: 'Lobster', cursive;
-    letter-spacing: 3px;
+    letter-spacing: 0px;
     font-size: 7em;
     color: lemonchiffon;
 }
@@ -149,4 +149,17 @@
 
 .feat-num h4{
         color: #3c3c3c;
+}
+
+.social{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.modal-content .modal-body{
+    padding: 0px;
+}
+
+.form-group.is-focused .form-control{
+    background-image: linear-gradient(to bottom, #4CAF50 0%, #41AF71 100%);
 }
