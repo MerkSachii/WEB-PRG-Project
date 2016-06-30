@@ -3,7 +3,7 @@
 <h4>Front End:</h4>
 
  - <strike>Landing Page / Sign In Page</strike>
- - Sign Up Page
+ - Sign Up Page <strong>[WIP]</strong>
  - The Market Page
  - Product page
  - Profile / User Page
