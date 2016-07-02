@@ -33,8 +33,37 @@
 }
 
 .signup-page .wrapper > .header{
-    background-image:url(https://static.pexels.com/photos/9186/food-beans-coffee-drink.jpg);
+    background-image:url(http://i.imgur.com/7MlLwwl.jpg);
     background-size: cover;
     background-position: top center;
 }
 
+
+.modal-body-form .input-group{
+    padding: 0px 0px;
+    padding-left: 30px;
+    box-sizing: border-box;
+    padding-right: 50px;
+}
+
+#signInButton{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 30px;
+}
+
+#signUpButton{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.social{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.modal-content .modal-body{
+    padding: 0px;
+}

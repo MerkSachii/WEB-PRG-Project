@@ -66,7 +66,7 @@
                             <h3>Shop, Sell, and Advertise your farm @ The Market!
                             </h3>
                             <br>
-                            <a type="button" class="btn btn-danger btn-lg btn-raised btn-round" href="#">Sign Up Now!  <i class="fa fa-heart"></i></a> 
+                            <a type="button" class="btn btn-danger btn-lg btn-raised btn-round" href="signup.html">Sign Up Now!  <i class="fa fa-heart"></i></a> 
                         </div>
                     </div>
                 </div>
@@ -293,7 +293,12 @@
     $().ready(function(){
 			// the body of this function is in assets/material-kit.js
 			$(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
+            
+            document.getElementById("signUpButton").onclick = function(){
+                location.href = "signup.html";
+            }
 		});
+    
 </script>
 
 

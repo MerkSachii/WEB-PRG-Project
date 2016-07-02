@@ -39,12 +39,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand"><!--<i class="fa fa-coffee"></i>-->Kapino</a>
+                    <a class="navbar-brand" href="landing-home.html"><!--<i class="fa fa-coffee"></i>-->Kapino</a>
                 </div>
                 
                 <div class="navbar-collapse collapse" id="landing-navbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#"><i class="fa fa-home"></i> Home</a></li>
+                        <li class=""><a href="landing-home.html"><i class="fa fa-home"></i> Home</a></li>
                         <li><a href="#"><i class="fa fa-shopping-basket "></i> The Market</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
@@ -227,6 +227,67 @@
         </div>
         </div>
         <!-- /WRAPPER -->
+        
+        
+        <!--  SIGN IN MODAL -->
+        <div class="modal fade" id="signInModal" tabindex="-1" role="dialog" aria-labelledby="SignInModal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header text-center">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h3 class="modal-title montserrat" id="SignInLabel"> <i class="fa fa-user fa-lg"></i><br>Sign In!</h3>
+                        <div class="social center-block page-header">
+                            <ul class="list-inline">
+                                <li><button type="button" class="btn"><i class="fa fa-facebook-square fa-lg"></i></button></li>
+                                <li><button type="button" class="btn"><i class="fa fa-twitter fa-lg"></i></button></li>
+                                <li><button type="button" class="btn"><i class="fa fa-google-plus fa-lg"></i></button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="modal-body-form">
+                            <form id="loginForm" method="post">
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="material-icons">email</i>
+                                    </span>
+                                    <div class="form-group-lg">
+                                        <input type="email" placeholder="Your Email" class="form-control" value="" required/>
+                                    </div>
+                                </div>
+
+                                <div class="input-group">
+                                    <span class="input-group-addon">
+                                        <i class="material-icons">lock</i>
+                                    </span>
+                                    <div class="form-group-lg">
+                                        <input type="password" placeholder="Your Password" class="form-control" value="" required/>
+                                    </div>
+                                </div>
+                                
+                                <div class="montserrat">
+                                    <button type="submit" class="btn btn-raised btn-primary btn-lg btn-success" id="signInButton">
+                                    Login
+                                    </button>
+                                </div>
+                                
+                            </form>
+                        </div>
+                        <hr>
+                        
+                    </div>
+                    <div class="modal-footer">
+                        <div class="modal-footer-content">
+                            <h6 class="text-center">Don't have an Account?</h6>
+                            <button type="submit" class="btn btn-raised btn-primary btn-round btn-danger btn-sm" id="signUpButton">
+                            Get Started <i class="fa fa-heart"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /SIGN IN MODAL -->
     </body>
 
 <!--   Core JS Files   -->
