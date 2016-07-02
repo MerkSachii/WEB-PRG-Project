@@ -29,9 +29,9 @@
         <link href="css/signup.css" rel="stylesheet"/>
     </head>
 
-    <body class="singup-page">
+    <body class="signup-page">
         <!-- NAVBAR -->
-        <nav class="navbar navbar-success navbar-fixed-top">
+        <nav class="navbar navbar-success navbar-absolute">
             <div class="container">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#landing-navbar">
@@ -57,11 +57,143 @@
         <!-- /NAVBAR -->
         <!--  WRAPPER -->
         <div class="wrapper">
-            
+            <div class="header header-filter" id="background">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="card card-signup">
+                            <form class="form" data-toggle="validator">
+                                <div class="header header-info text-center">
+                                    <h3 class="montserrat">
+                                        Sign Up!
+                                    </h3>
+                                    <div class="social-line">
+										<a href="#pablo" class="btn btn-just-icon">
+											<i class="fa fa-facebook-square"></i>
+										</a>
+										<a href="#pablo" class="btn btn-just-icon">
+											<i class="fa fa-twitter"></i>
+										</a>
+										<a href="#pablo" class="btn btn-just-icon">
+											<i class="fa fa-google-plus"></i>
+										</a>
+									</div>
+                                    <p class="text-divider">Or be Classical</p>
+                                </div>
+                                <div class="content">
+                                    <!-- F.Name & L.Name -->
+                                    <div class="form-group">
+                                        <div class="row">
+                                            
+                                            <div class="col-sm-6">
+                                                <div class="form-group has-feedback">
+                                                <div class="input-group has-feedback">
+                                                    <span class="input-group-addon">
+                                                        <i class="material-icons">face</i>
+                                                    </span>
+                                                    
+                                                        <input id="inputFirstName" type="text" class="form-control" maxlength="50" placeholder="First Name" required>
+                                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                        <div class="help-block with-errors"></div>
+                                                    
+                                                </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6">
+                                                <div class="form-group has-feedback">
+                                                <div class="input-group has-feedback">
+                                                    <span class="input-group-addon">
+                                                        <i class="material-icons">face</i>
+                                                    </span>
+                                                    
+                                                    
+                                                        <input id="inputLastName" type="text" class="form-control" maxlength="50" placeholder="Last Name" required>
+                                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                        <div class="help-block with-errors"></div>
+                                                    
+                                                </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                <!-- F.Name & L.Name -->
+                                <!-- Email Address -->
+                                    <div class="form-group has-feedback">
+                                        <div class="input-group has-feedback">
+                                            <span class="input-group-addon">
+                                                <i class="material-icons">email</i>
+                                            </span> 
+                                                <input id="inputEmail" class="form-control" type="email" required data-error="Invalid Email Address" placeholder="Email Address">
+                                                <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                <div class="help-block with-errors"></div>
+                                        </div>
+                                    </div>
+                                <!-- Email Address -->
+                                    
+                                <!-- Password & Password Confirmation -->
+                                    <div class="form-group">
+                                        <div class="row">
+                                            
+                                            <div class="col-sm-6">
+                                                <div class="form-group has-feedback">
+                                                <div class="input-group has-feedback">
+                                                    <span class="input-group-addon">
+                                                        <i class="material-icons">lock_open</i>
+                                                    </span>
+                                                        <label for="inputPassword" class="control-label">Password</label>
+                                                        <input id="inputPassword" type="password" class="form-control" data-minlength="6" required>
+                                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                        <div class="help-block">
+                                                            Minimum of 6 Characters 
+                                                        </div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6">
+                                                <div class="form-group has-feedback">
+                                                <div class="input-group has-feedback">
+                                                    <span class="input-group-addon">
+                                                        <i class="material-icons">lock</i>
+                                                    </span>
+                                                        <label for="inputVerifyPassword" class="control-label">Verify Password</label>
+                                                        <input id="inputVerifyPassword" type="password" class="form-control" data-minlength="6" data-match="#inputPassword" data-match-error="Bobo, Hindi Match" required>
+                                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                                        <div class="help-block with-errors"></div>
+                                                </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- /Password & Password Confirmation -->
+                                <!-- Address -->
+                                    <div class="form-group has-feedback">
+                                    <div class="input-group has-feedback">
+                                        <span class="input-group-addon">
+                                            <i class="material-icons">location_on</i>
+                                        </span>
+                                        
+                                        <label for="inputAddress" class="control-label">Address</label>
+                                        <textarea class="form-control" rows="2" id="inputAddress" placeholder="Enter Your Address Here" maxlength="100" required></textarea>
+                                        <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                        <div class="help-block with-errors"></div>
+                                        
+                                    </div>
+                                    </div>
+                                <!-- /Address -->   
+                                    <div class="form-group text-right">
+                                        <button id="submitButton" type="submit" class="btn btn-primary btn-raised btn-info">Submit</button>
+                                    </div>
+                                    
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
-        <!-- /WRAPPER -->
-        
-        <!--  FOOTER -->
+            <!--  FOOTER -->
         <footer class="footer">
 	        <div class="container">
 	            <nav class="pull-left">
@@ -92,6 +224,9 @@
 	        </div>
 	    </footer>
         <!-- /FOOTER -->
+        </div>
+        </div>
+        <!-- /WRAPPER -->
     </body>
 
 <!--   Core JS Files   -->
@@ -100,7 +235,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="../bootstrap/bootstrap3/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="../bootstrap/Material%20Kit/assets/js/material.min.js"></script>
-    
+
 
 <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
 <script src="../bootstrap/Material%20Kit/assets/js/nouislider.min.js" type="text/javascript"></script>
@@ -116,6 +251,7 @@
 			$(window).on('scroll', materialKit.checkScrollForTransparentNavbar);
 		});
 </script>
+<script src="js/validator.min.js"></script>
 
 
 </html>

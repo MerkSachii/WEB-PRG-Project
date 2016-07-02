@@ -27,3 +27,14 @@
     font-family: 'Lobster', cursive;
     font-size: 26px;
 }
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.signup-page .wrapper > .header{
+    background-image:url(https://static.pexels.com/photos/9186/food-beans-coffee-drink.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
