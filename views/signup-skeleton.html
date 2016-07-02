@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Signup Skeleton</title>
+
+    <!-- Bootstrap -->
+    <link href="../bootstrap/bootstrap3/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Registration Form</h1>
+                <p>Registration form with Bootstrap Validator</p>
+                <p>
+                    <a class="btn btn-primary btn-lg" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Learn more</a>
+                </p>
+            </div>
+        </div>
+        
+        <div class="container">
+            <form class="" role="form" data-toggle="validator" method="post">
+                
+                <!-- F.Name & L.Name -->
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group has-feedback">
+                                    <label for="inputFirstName" class="control-label">First Name</label>
+                                    <input id="inputFirstName" type="text" class="form-control" maxlength="50" required>
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group has-feedback">
+                                    <label for="inputLastName" class="control-label">Last Name</label>
+                                    <input id="inputLastName" type="text" class="form-control" maxlength="50" required>
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- /F.Name & L.Name -->
+            
+                <!--Email Address -->
+                <div class="form-group has-feedback">
+                    <label class="control-label" for="inputEmail">Email</label>
+                    <input id="inputEmail" class="form-control" type="email" required data-error="Invalid Email Address">
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                </div>
+                <!-- /Email Address -->
+                
+                <!-- Password & Password Confirmation -->
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <label for="inputPassword" class="control-label">Password</label>
+                                    <input id="inputPassword" type="password" class="form-control" data-minlength="6" required>
+                                    <div class="help-block">
+                                        Minimum of 6 Characters 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group has-feedback">
+                                    <label for="inputVerifyPassword" class="control-label">Verify Password</label>
+                                    <input id="inputVerifyPassword" type="password" class="form-control" data-minlength="6" data-match="#inputPassword" data-match-error="Bobo, Hindi Match" required>
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- /Password & Password Confirmation -->
+                
+                <!-- Address -->
+                <div class="form-group has-feedback">
+                    <label for="inputAddress" class="control-label">Address</label>
+                    <textarea class="form-control" rows="2" id="inputAddress" placeholder="Enter Your Address Here" required></textarea>
+                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                    <div class="help-block with-errors"></div>
+                </div>
+                <!-- /Address -->
+                
+                <div class="form-group text-right">
+                    <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                
+                
+            </form>
+        </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap/bootstrap3/js/bootstrap.min.js"></script>
+    <script src="js/validator.min.js"></script>
+    </body>
+</html>
