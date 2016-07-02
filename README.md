@@ -12,5 +12,15 @@
  - Admin Page
 
 <h4>Back End:</h4>
-- Integration with database
-- Display contents to Market Page
+- Insert user
+- Login user
+- Edit user info
+- Insert product
+- Edit product info
+- Delete product
+- Sort products
+- Search user
+- Search product with category
+- Display products to Market Page correctly
+- Display user info to Profile correctly
+- Display users to Admin Page correctly
