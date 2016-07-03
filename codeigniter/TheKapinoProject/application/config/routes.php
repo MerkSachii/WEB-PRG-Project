@@ -51,6 +51,5 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'KapinoController';
 $route['home'] = 'KapinoController/home';
-$route['users/add'] = 'Kapino_ctrl/addTUsers';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
