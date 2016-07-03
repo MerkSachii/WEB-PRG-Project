@@ -49,8 +49,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['default_controller'] = 'Kapino_ctrl';
-$route['users/add_view'] = 'Kapino_ctrl/addTUsers_view';
+$route['default_controller'] = 'KapinoController';
+$route['home'] = 'KapinoController/home';
 $route['users/add'] = 'Kapino_ctrl/addTUsers';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
