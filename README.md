@@ -12,7 +12,7 @@
  - Admin Page
 
 <h4>Back End:</h4>
-- Insert user
+- <strike>Insert user</strike>
 - Login user
 - Edit user info
 - Insert product
