@@ -22,7 +22,7 @@ $(window).resize(function() {
         y.className = "main main-raised";
     }
     
-    // Set the Header image to auto to Mobiles
+    // Set the Header image to auto for Mobiles
     if(x < 513){
         document.getElementById("header").style.height = "auto"
         document.getElementById("header").style.paddingBottom = "30px";

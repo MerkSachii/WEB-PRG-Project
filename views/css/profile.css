@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Lobster';
+    src: url('fonts/Lobster/lobster-regular-webfont.woff2') format('woff2'),
+         url('fonts/Lobster/lobster-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face{
+    font-family: 'Lobster2';
+    src: url('fonts/Lobster_Two/lobstertwo-regular-webfont.woff2') format('woff2'),
+    url('fonts/Lobster_Two/lobstertwo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face{
+    font-family:'Montserrat';
+    src: url('fonts/Montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+        url('fonts/Montserrat/montserrat-regular-webfont.woff') format('wofff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header-img{
+    background-image: url(http://i.imgur.com/WDbC6sl.jpg);
+}
+
+.main{
+    transition: .8s all;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lobster{
+    font-family: 'Lobster', 'sans';
+}
+
+.navbar-brand {
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+}
+
+.label{
+    font-size: small;
+}
+
+
+.strong{
+    font-weight: bold;
+}
+
+.tab-content{
+    
+    padding-top: 50px;
+}

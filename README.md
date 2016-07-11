@@ -4,8 +4,8 @@
 
  - <strike>Landing Page / Sign In Page</strike>
  - <strike>Sign Up Page </strike> <strong>DOB to be added</strong>
- - The Market Page
- - Product page
+ - <strike>The Market Page</strike>
+ - <strike>Product page</strike>
  - Profile / User Page
  - Rate Page
  - Statistic Page
