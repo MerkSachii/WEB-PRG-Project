@@ -8,7 +8,7 @@ class KapinoUsers extends CI_Model {
         $this->sys = $this->load->database('KapinoUsers', TRUE);
     }
     
-    function getUsers() {
+    public function getUsers() {
         $query = $this->sys->query("SELECT CONCAT((firstName),(' '),(lastName)) as User FROM users");
         
         if($query->num_rows() > 0) {
@@ -18,7 +18,12 @@ class KapinoUsers extends CI_Model {
         else {
 				return NULL;
 			}
-    } 
+    }
+    
+    public function insertData($table, $data) {
+        $query = $this->db->insert($table,$data);
+        return $query;
+    }
 }
 
 ?>

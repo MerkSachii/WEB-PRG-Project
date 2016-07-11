@@ -66,7 +66,7 @@
                             <h3>Shop, Sell, and Advertise your farm @ The Market!
                             </h3>
                             <br>
-                            <a type="button" class="btn btn-danger btn-lg btn-raised btn-round" href="users/add_view">Sign Up Now!  <i class="fa fa-heart"></i></a> 
+                            <a type="button" class="btn btn-danger btn-lg btn-raised btn-round" href="http://localhost/TheKapinoProject/index.php/signup">Sign Up Now!  <i class="fa fa-heart"></i></a> 
                         </div>
                     </div>
                 </div>
