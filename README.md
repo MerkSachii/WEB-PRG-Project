@@ -4,15 +4,9 @@
 
  - <strike>Landing Page / Sign In Page</strike>
  - <strike>Sign Up Page </strike> <strong>DOB to be added</strong>
-<<<<<<< HEAD
  - <strike>The Market Page</strike>
  - <strike>Product page</strike>
- - Profile / User Page
-=======
- - The Market Page <strong>[WIP]</strong>
- - Product page <strong>[WIP]</strong>
  - Profile / User Page <strong>[WIP]</strong>
->>>>>>> origin/master
  - Rate Page
  - Statistic Page 
  - Admin Page
