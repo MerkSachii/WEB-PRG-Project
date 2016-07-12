@@ -30,6 +30,11 @@
 
 .main{
     transition: .8s all;
+    min-height: 1200px;
+}
+
+.wrapper{
+    transition: .8s all;
 }
 
 .montserrat{
@@ -57,4 +62,9 @@
 .tab-content{
     
     padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#newAdButton{
+    margin-bottom: 75px;
 }
